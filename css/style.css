@@ -8,22 +8,31 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #404040;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  background-color: #f4f5f7;
+}
+
 ul {
   list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
 }
 
 .cabecalho {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 3.12rem;
   position: sticky;
   z-index: 9999;
   top: 0;
   left: 0;
   background-color: white;
   padding: 1.6rem 3.12rem;
-  box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.1);
 }
 
 .cabecalho img {
@@ -38,14 +47,8 @@ ul {
   padding: 0;
 }
 
-nav ul {
-  display: flex;
-  align-items: center;
-  gap: 2.5rem;
-}
-
 .cabecalho a {
-  color: #112e61;
+  color: #000000;
   font-size: 1.4rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -55,4 +58,9 @@ nav ul {
 .cabecalho a:hover,
 .cabecalho a:active {
   color: #f60;
+}
+
+footer {
+  background-color: black;
+  color: white;
 }
