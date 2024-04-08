@@ -45,6 +45,17 @@ strong {
   font-weight: 600;
 }
 
+h2 {
+  font-size: 2.76rem;
+  line-height: 1.1;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 2.3rem;
+  line-height: 1.2;
+}
+
 .secao {
   padding: 7.63rem 2rem;
 }
@@ -119,14 +130,19 @@ ul {
   background-color: #1dc5d4;
 }
 
-/* ___________________________________________________________________________________ */
-
-/* SEÇÃO EXEMPLO */
-.secao-exemplo {
+/* SEÇÃO EVENTO */
+.secao-evento {
   color: white;
-  background-image: url(../img/exemplo.jpeg);
+  background-image: url(../img/projeto02.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   height: 45vh;
+}
+
+.temas-eventos {
+  border-radius: 1.5rem;
+  background-color: #306d94;
+  color: white;
+  padding: 0rem 1rem 0rem 1rem;
 }
