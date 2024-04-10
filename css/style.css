@@ -86,7 +86,7 @@ ul {
 
 .item-lista-cabecalho a {
   font-size: 1.4rem;
-  color: #000000;
+  color: #f69b10;
   text-decoration: none;
   font-weight: 600;
   text-transform: uppercase;
@@ -94,7 +94,7 @@ ul {
 
 .item-lista-cabecalho a:hover,
 .item-lista-cabecalho a:active {
-  color: #1dc5d4;
+  color: #306d94;
 }
 
 /* SEÇÃO RODAPE */
@@ -116,9 +116,8 @@ ul {
 }
 
 .botao:hover {
-  background-color: #1dc5d4;
+  background-color: #306d94;
 }
-
 /* ___________________________________________________________________________________ */
 
 /* SEÇÃO EXEMPLO */
