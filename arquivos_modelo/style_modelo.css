@@ -42,7 +42,7 @@ p {
 }
 
 strong {
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .secao {
@@ -120,50 +120,12 @@ ul {
 }
 /* ___________________________________________________________________________________ */
 
-/* SEÇÃO PRINCIPAL*/
-.secao-inicio {
-  color: black;
-  background-image: url(../img/background2.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 72vh;
-}
-
-.secao-sobre {
+/* SEÇÃO EXEMPLO */
+.secao-exemplo {
   color: white;
-  /* background-image: url(..); */
-  background-color: #260a66;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 72vh;
-}
-
-.secao-eventos {
-  color: #260a66;
-  /* background-image: url(..); */
-  background-color: white;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 72vh;
-}
-
-/* SEÇÃO EVENTO 01 e 02 */
-.secao-evento {
+  background-image: url(../img/exemplo.jpeg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   height: 45vh;
-}
-
-.evento02 {
-  color: white;
-  background-image: url(../img/evento02.jpg);
-}
-
-.evento01 {
-  color: white;
-  background-image: url(../img/evento01.png);
 }
