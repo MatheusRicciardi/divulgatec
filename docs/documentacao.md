@@ -50,6 +50,33 @@ Site de divulgação de eventos de tecnologia
 - **Classes (`.`)**:
   - Uma classe é um seletor reutilizável usado para estilizar múltiplos elementos. Classes são ideais para estilizar elementos que compartilham as mesmas características ou comportamentos.
 
+
+## Unidades de Medida:
+
+### Abaixo estão as unidades de medida utilizadas no arquivo style CSS:
+
+- **`rem`**: 
+  - Unidade relativa ao tamanho da fonte do elemento raiz (`<html>`). Útil para criar designs responsivos.
+
+- **`px`**: 
+  - Unidade de medida fixa. Um pixel é uma única ponto em uma imagem digital, usado comumente para design de tela.
+
+- **`%`**: 
+  - Porcentagem de uma unidade pai. É usado principalmente para largura e altura em layouts responsivos.
+
+- **`vh`**: 
+  - Viewport Height. Equivale a 1% da altura da viewport.
+
+- **`auto`**: 
+  - Valor automático. Geralmente usado para alinhar ou dimensionar elementos automaticamente.
+
+- **`em`**: 
+  - Unidade relativa ao tamanho da fonte do elemento pai.
+
+
+
+
+
 ## .item-lista-cabecalhoa
 
 Este seletor é utilizado para estilizar os itens da lista no cabeçalho.
