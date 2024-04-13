@@ -145,7 +145,7 @@ ul {
 /* SEÇÃO PRINCIPAL*/
 .secao-inicio {
   color: black;
-  background-image: url(../img/background2.png);
+  background-image: url(../img/background_inicio.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -192,4 +192,41 @@ ul {
 .evento01 {
   color: white;
   background-image: url(../img/evento01.png);
+}
+
+/* SEÇÃO CONTATO */
+.secao-contato {
+  background-color: rgb(255, 255, 255);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contato_form {
+  padding: 4rem;
+  max-width: 80rem;
+  text-align: left;
+  border-radius: 5px;
+  margin: 5rem auto 0 auto;
+}
+
+.form_label {
+  color: #666;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.form_input {
+  font-family: inherit;
+  padding: 2rem;
+  width: 100%;
+  font-size: 1.6rem;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.contato-tabela {
+  color: white;
+  background-color: #306d94;
+  border-radius: 1rem;
+  padding: 1rem;
 }

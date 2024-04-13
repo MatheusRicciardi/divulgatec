@@ -2,40 +2,68 @@
 
 Site de divulgação de eventos de tecnologia
 
-# Tags HTML Utilizadas no Documento
+# Estrutura HTML do Projeto
 
-- `<!DOCTYPE html>`: Declaração do tipo de documento.
-- `<html>`: Tag raiz que envolve todo o conteúdo HTML.
-- `<head>`: Cabeçalho do documento que contém metadados e links para arquivos externos.
-  - `<meta>`: Tags meta para configuração do documento.
-  - `<link>`: Tag para vincular um arquivo CSS externo.
-  - `<title>`: Define o título da página.
-- `<body>`: Contém todo o conteúdo visível da página.
-- `<header>`: Cabeçalho da página.
-  - `<a>`: Link de âncora.
-  - `<nav>`: Contêiner para links de navegação.
-  - `<ul>`: Lista não ordenada.
-  - `<li>`: Item de lista.
-- `<main>`: Contém o conteúdo principal da página.
-- `<section>`: Define uma seção na página.
-  - `class`: Atributo de classe para estilização.
-  - `id`: Atributo de identificação único.
-- `<div>`: Divisão genérica ou contêiner.
-- `<center>`: Tag desatualizada para centralizar conteúdo (é melhor usar CSS para isso).
-- `<strong>`: Texto forte ou enfatizado.
-- `<h1>`, `<h2>`, `<h3>`: Títulos de cabeçalho.
-- `<p>`: Parágrafo.
-- `<img>`: Imagem.
-- `<table>`: Tabela.
-  - `<tr>`: Linha de tabela.
-  - `<td>`: Célula de tabela.
-  - `<ol>`: Lista ordenada dentro de uma célula da tabela.
-- `<a>`: Link de âncora.
-  - `href`: Atributo de URL do link.
-  - `target="_blank"`: Atributo para abrir o link em uma nova aba/janela.
-- `<br>`: Quebra de linha.
-- `<hr>`: Linha horizontal.
-- `<footer>`: Rodapé da página.
+Este documento descreve a estrutura básica do HTML utilizada no projeto.
+
+## Tags e Atributos
+
+- **`<!DOCTYPE html>`**: Declaração do tipo de documento.
+- **`<html>`**: Tag raiz que envolve todo o conteúdo HTML.
+
+- **`<head>`**: Cabeçalho do documento que contém metadados e links para arquivos externos.
+
+  - **`<meta>`**: Tags meta para configuração do documento.
+  - **`<link>`**: Tag para vincular um arquivo CSS externo.
+  - **`<title>`**: Define o título da página.
+
+- **`<body>`**: Contém todo o conteúdo visível da página.
+
+- **`<form>`**: Define um formulário HTML.
+
+  - **`<label>`**: Etiqueta descritiva para um campo de formulário.
+  - **`<input>`**: Campo de entrada para formulário.
+  - **`action`**: Atributo para especificar o URL de destino para o envio dos dados do formulário.
+  - **`type`**: Tipo do campo (text, email, etc.).
+  - **`name`**: Nome do campo.
+  - **`placeholder`**: Texto de orientação para o usuário.
+
+- **`<h1>`, `<h2>`, `<h3>`**: Títulos de cabeçalho.
+
+- **`<p>`**: Parágrafo.
+
+- **`<div>`**: Divisão genérica ou contêiner.
+
+- **`<textarea>`**: Campo de texto multi-linha para formulário.
+
+  - **`rows`**: Número de linhas visíveis.
+
+- **`<a>`**: Link de âncora.
+
+  - **`href`**: Atributo de URL do link.
+  - **`target="_blank"`**: Atributo para abrir o link em uma nova aba/janela.
+
+- **`<ul>`**: Lista não ordenada.
+- **`<ol>`**: Lista ordenada.
+
+  - **`<li>`**: Item de lista.
+
+- **`<img>`**: Imagem.
+
+- **`<center>`**: Tag para centralizar conteúdo.
+
+- **`<strong>`**: Texto forte ou enfatizado.
+
+- **`<table>`**: Tabela.
+
+  - **`<tr>`**: Linha de tabela.
+  - **`<td>`**: Célula de tabela.
+
+- **`<br>`**: Quebra de linha.
+
+- **`<hr>`**: Linha horizontal.
+
+- **`<footer>`**: Rodapé da página.
 
 # Propriedades CSS Utilizadas no Arquivo
 
@@ -50,32 +78,32 @@ Site de divulgação de eventos de tecnologia
 - **Classes (`.`)**:
   - Uma classe é um seletor reutilizável usado para estilizar múltiplos elementos. Classes são ideais para estilizar elementos que compartilham as mesmas características ou comportamentos.
 
-
 ## Unidades de Medida:
 
 ### Abaixo estão as unidades de medida utilizadas no arquivo style CSS:
 
-- **`rem`**: 
+- **`rem`**:
+
   - Unidade relativa ao tamanho da fonte do elemento raiz (`<html>`). Útil para criar designs responsivos.
 
-- **`px`**: 
+- **`px`**:
+
   - Unidade de medida fixa. Um pixel é uma única ponto em uma imagem digital, usado comumente para design de tela.
 
-- **`%`**: 
+- **`%`**:
+
   - Porcentagem de uma unidade pai. É usado principalmente para largura e altura em layouts responsivos.
 
-- **`vh`**: 
+- **`vh`**:
+
   - Viewport Height. Equivale a 1% da altura da viewport.
 
-- **`auto`**: 
+- **`auto`**:
+
   - Valor automático. Geralmente usado para alinhar ou dimensionar elementos automaticamente.
 
-- **`em`**: 
+- **`em`**:
   - Unidade relativa ao tamanho da fonte do elemento pai.
-
-
-
-
 
 ## .item-lista-cabecalhoa
 
@@ -132,9 +160,9 @@ Este seletor é utilizado para estilizar os itens da lista no cabeçalho.
 
   - Define a direção do eixo principal em um contêiner flex como vertical.
 
-- `font-family`: `montserrat, sans-serif`
+- `font-family`: `montserrat, sans-serif` ou `inherit`
 
-  - Define a fonte utilizada para o texto.
+  - Define a fonte utilizada para o texto. ou herda a fonte de outra tag
 
 - `font-size`: `62.5%`
 
@@ -172,6 +200,10 @@ Este seletor é utilizado para estilizar os itens da lista no cabeçalho.
 
   - Define as margens do elemento.
 
+  - `margin-bottom`: `1rem`
+
+  - Define a margem inferior do elemento.
+
 - `margin-top`: `1rem`
 
   - Define a margem superior do elemento.
@@ -192,6 +224,10 @@ Este seletor é utilizado para estilizar os itens da lista no cabeçalho.
 
   - Define a posição do elemento como fixa, relativa ao contêiner.
 
+- `text-align`: `left`
+
+  - Define a posição do texto a esquerda
+
 - `text-decoration`: `none`
 
   - Remove a decoração de texto, como sublinhado.
@@ -210,3 +246,5 @@ Este seletor é utilizado para estilizar os itens da lista no cabeçalho.
 
 - `z-index`: `9999`
   - Define a ordem de empilhamento do elemento.
+
+Tags HTML e Atributos
