@@ -154,7 +154,6 @@ ul {
 
 .secao-sobre {
   color: white;
-  /* background-image: url(..); */
   background-color: #260a66;
   background-position: top;
   background-repeat: no-repeat;
@@ -163,8 +162,6 @@ ul {
 }
 
 .secao-eventos {
-  color: #260a66;
-  /* background-image: url(..); */
   background-color: white;
   background-position: top;
   background-repeat: no-repeat;
@@ -177,7 +174,14 @@ ul {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 45vh;
+  height: 50vh;
+}
+
+.conteudo-evento {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
 }
 
 .evento02 {
