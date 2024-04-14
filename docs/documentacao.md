@@ -246,5 +246,3 @@ Este seletor é utilizado para estilizar os itens da lista no cabeçalho.
 
 - `z-index`: `9999`
   - Define a ordem de empilhamento do elemento.
-
-Tags HTML e Atributos
